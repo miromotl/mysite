@@ -1,0 +1,3 @@
+[build]
+    command="eleventy --formats=md,html,njk,css"
+    publish="build"
