@@ -1,0 +1,10 @@
+---
+title: covid-19
+description: Shows some data about covid-19 infections
+country: france
+layout: covid19page.njk
+---
+
+<script>
+const data = {{ data | covid19Country: population }};
+</script>

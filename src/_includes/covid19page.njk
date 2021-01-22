@@ -1,0 +1,15 @@
+{% include "partials/htmlhead.njk" %}
+
+<main>
+{% block content %}
+  <div class="container">
+    <h1 class="title title--xxxl">{{ title }} |> {{ country }}</h1>
+    {{ content | safe }}
+    
+    {% include "partials/covid19charts.html" %}
+    
+  </div>
+{% endblock %}
+</main>
+
+{% include "partials/htmlfoot.njk" %}
