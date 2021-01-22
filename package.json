@@ -1,17 +1,16 @@
 {
-    "name": "mysite",
-    "version": "1.0.0",
-    "description": "",
-    "main": ".eleventy.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {},
-    "devdependencies": {
-      "eleventy": "^1.0.0"
-    }
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eleventy": "^1.0.6"
   }
-  
+}
