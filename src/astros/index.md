@@ -1,6 +1,7 @@
 ---
 title: in space
 description: Shows a list of the austronauts in space at this time
+href: astros
 layout: page.njk
 ---
 

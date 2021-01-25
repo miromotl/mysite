@@ -1,6 +1,7 @@
 ---
 title: earthquakes
 description: Shows a list of earthquakes occured the last 24 hours
+href: quakes
 layout: page.njk
 ---
 

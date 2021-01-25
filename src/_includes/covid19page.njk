@@ -3,7 +3,13 @@
 <main>
 {% block content %}
   <div class="container">
-    <h1 class="title title--xxxl">{{ title }} |> {{ country }}</h1>
+    <div class="navbar">
+    <a href="/">home</a>
+    <a href="/astros">in space</a>
+    <a href="/quakes">earthquakes</a>
+    <a href="/covid19" class="active">covid-19</a>
+  </div>
+    <h1 class="title title--xxxl">{{ country }}</h1>
     {{ content | safe }}
     
     {% include "partials/covid19charts.html" %}

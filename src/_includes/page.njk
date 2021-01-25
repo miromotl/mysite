@@ -3,6 +3,13 @@
 <main>
 {% block content %}
   <div class="container">
+    <div class="navbar">
+    <a id="home" href="/">home</a>
+    <a id="astros" href="/astros">in space</a>
+    <a id="quakes" href="/quakes">earthquakes</a>
+    <a id="covid19" href="/covid19">covid-19</a>
+  </div>
+
     <h1 class="title title--xxxl">{{ title }}</h1>
     {{ content | safe }}
   </div>
@@ -10,3 +17,8 @@
 </main>
 
 {% include "partials/htmlfoot.njk" %}
+
+<script>
+  let ele = document.getElementById("{{href}}");
+  ele.classList.add("active");
+</script>

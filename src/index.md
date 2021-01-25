@@ -1,7 +1,7 @@
 ---
 title: mysite
 description: this is my first site using 11ty
-date: Last Modified
+href: home
 layout: page.njk
 ---
 
